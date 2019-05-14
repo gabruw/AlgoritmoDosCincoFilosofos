@@ -43,8 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Filosofo.cs" />
-    <Compile Include="Garfo.cs" />
+    <Compile Include="CincoFilosofos\Filosofo.cs" />
+    <Compile Include="CincoFilosofos\Garfo.cs" />
+    <Compile Include="CincoFilosofos\MainFilosofos.cs" />
     <Compile Include="Index.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,2 +1,9 @@
 C:\Users\snyp_\Documents\GitHub\AlgoritmosDeEscalonamento\AlgoritmosDeEscalonamento\obj\Debug\AlgoritmosDeEscalonamento.csprojAssemblyReference.cache
 C:\Users\snyp_\Documents\GitHub\AlgoritmosDeEscalonamento\AlgoritmosDeEscalonamento\obj\Debug\AlgoritmosDeEscalonamento.csproj.CoreCompileInputs.cache
+C:\Users\SHU Aeronáutica 01\Documents\GitHub\AlgoritmosDeEscalonamento\AlgoritmosDeEscalonamento\bin\Debug\AlgoritmosDeEscalonamento.exe.config
+C:\Users\SHU Aeronáutica 01\Documents\GitHub\AlgoritmosDeEscalonamento\AlgoritmosDeEscalonamento\bin\Debug\AlgoritmosDeEscalonamento.exe
+C:\Users\SHU Aeronáutica 01\Documents\GitHub\AlgoritmosDeEscalonamento\AlgoritmosDeEscalonamento\bin\Debug\AlgoritmosDeEscalonamento.pdb
+C:\Users\SHU Aeronáutica 01\Documents\GitHub\AlgoritmosDeEscalonamento\AlgoritmosDeEscalonamento\obj\Debug\AlgoritmosDeEscalonamento.csprojAssemblyReference.cache
+C:\Users\SHU Aeronáutica 01\Documents\GitHub\AlgoritmosDeEscalonamento\AlgoritmosDeEscalonamento\obj\Debug\AlgoritmosDeEscalonamento.csproj.CoreCompileInputs.cache
+C:\Users\SHU Aeronáutica 01\Documents\GitHub\AlgoritmosDeEscalonamento\AlgoritmosDeEscalonamento\obj\Debug\AlgoritmosDeEscalonamento.exe
+C:\Users\SHU Aeronáutica 01\Documents\GitHub\AlgoritmosDeEscalonamento\AlgoritmosDeEscalonamento\obj\Debug\AlgoritmosDeEscalonamento.pdb
