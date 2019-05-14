@@ -1,4 +1,4 @@
-﻿namespace AlgoritmosOrganização
+﻿namespace AlgoritmosDeEscalonamento
 {
     public class Filosofo
     {
@@ -7,6 +7,7 @@
         public Filosofo()
         {
             EstaPensando = true;
-        } 
+        }
     }
 }
+

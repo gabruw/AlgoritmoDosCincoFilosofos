@@ -1,0 +1,2 @@
+C:\Users\snyp_\Documents\GitHub\AlgoritmosDeEscalonamento\AlgoritmosDeEscalonamento\obj\Debug\AlgoritmosDeEscalonamento.csprojAssemblyReference.cache
+C:\Users\snyp_\Documents\GitHub\AlgoritmosDeEscalonamento\AlgoritmosDeEscalonamento\obj\Debug\AlgoritmosDeEscalonamento.csproj.CoreCompileInputs.cache

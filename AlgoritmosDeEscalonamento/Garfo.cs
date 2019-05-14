@@ -1,4 +1,4 @@
-﻿namespace AlgoritmosOrganização
+﻿namespace AlgoritmosDeEscalonamento
 {
     public class Garfo
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace AlgoritmosOrganização
+namespace AlgoritmosDeEscalonamento
 {
     public class Index
     {
@@ -158,7 +158,7 @@ namespace AlgoritmosOrganização
             if (garfo3.EstaEmUso || garfo4.EstaEmUso)
             {
                 return;
-            }  
+            }
 
             garfo3.EstaEmUso = true;
             garfo4.EstaEmUso = true;
@@ -178,7 +178,7 @@ namespace AlgoritmosOrganização
             if (garfo4.EstaEmUso || garfo5.EstaEmUso)
             {
                 return;
-            }    
+            }
 
             garfo4.EstaEmUso = true;
             garfo5.EstaEmUso = true;

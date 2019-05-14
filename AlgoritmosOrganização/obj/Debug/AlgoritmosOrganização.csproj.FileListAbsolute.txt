@@ -1,7 +1,0 @@
-C:\Users\snyp_\source\repos\AlgoritmosOrganização\AlgoritmosOrganização\bin\Debug\AlgoritmosOrganização.exe.config
-C:\Users\snyp_\source\repos\AlgoritmosOrganização\AlgoritmosOrganização\bin\Debug\AlgoritmosOrganização.exe
-C:\Users\snyp_\source\repos\AlgoritmosOrganização\AlgoritmosOrganização\bin\Debug\AlgoritmosOrganização.pdb
-C:\Users\snyp_\source\repos\AlgoritmosOrganização\AlgoritmosOrganização\obj\Debug\AlgoritmosOrganização.csprojAssemblyReference.cache
-C:\Users\snyp_\source\repos\AlgoritmosOrganização\AlgoritmosOrganização\obj\Debug\AlgoritmosOrganização.csproj.CoreCompileInputs.cache
-C:\Users\snyp_\source\repos\AlgoritmosOrganização\AlgoritmosOrganização\obj\Debug\AlgoritmosOrganização.exe
-C:\Users\snyp_\source\repos\AlgoritmosOrganização\AlgoritmosOrganização\obj\Debug\AlgoritmosOrganização.pdb
