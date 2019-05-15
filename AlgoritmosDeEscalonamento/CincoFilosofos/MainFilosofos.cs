@@ -75,9 +75,7 @@ namespace AlgoritmosDeEscalonamento
             Console.WriteLine(string.Format("Filósofo 4 está: {0}", situacaoFilosofo4));
 
             var situacaoFilosofo5 = Filosofo5.EstaPensando ? "PENSANDO" : "COMENDO";
-            Console.WriteLine(string.Format("Filósofo 5 está: {0}", situacaoFilosofo5));
-
-            Console.WriteLine("");
+            Console.WriteLine(string.Format("Filósofo 5 está: {0}\n", situacaoFilosofo5));
         }
 
         /// <summary>

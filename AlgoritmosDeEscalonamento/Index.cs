@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AlgoritmosDeEscalonamento.BarbeiroDorminhoco;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,6 +19,7 @@ namespace AlgoritmosDeEscalonamento
         public void Opcoes()
         {
             MainFilosofos filosofos = new MainFilosofos();
+            MainBarbeiro barbeiro = new MainBarbeiro();
 
             Console.Clear();
             Console.WriteLine("Qual algoritmo você deseja executar?");
@@ -38,6 +40,21 @@ namespace AlgoritmosDeEscalonamento
                     Console.Clear();
 
                     filosofos.ServirJantar(qtdRef);
+                    break;
+                case "2":
+                    Console.WriteLine("Quantas clientes entraram na barbearia?");
+                    Console.Write("->>");
+
+                    var qtdCli = Int16.Parse(Console.ReadLine());
+                    Console.Clear();
+
+                    Console.WriteLine("Quantas cadeiras para espera a barbearia possuí?");
+                    Console.Write("->>");
+
+                    var qtdCadEsp = Int16.Parse(Console.ReadLine());
+                    Console.Clear();
+
+                    barbeiro.AbrirBarbearia(qtdCli, qtdCadEsp);
                     break;
                 case "5":
                     return;

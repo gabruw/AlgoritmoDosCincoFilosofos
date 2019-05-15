@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BarbeiroDorminhoco\Barbeiro.cs" />
+    <Compile Include="BarbeiroDorminhoco\Cadeira.cs" />
+    <Compile Include="BarbeiroDorminhoco\MainBarbeiro.cs" />
     <Compile Include="CincoFilosofos\Filosofo.cs" />
     <Compile Include="CincoFilosofos\Garfo.cs" />
     <Compile Include="CincoFilosofos\MainFilosofos.cs" />
