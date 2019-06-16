@@ -24,7 +24,8 @@ namespace AlgoritmosDeEscalonamento
             Console.Clear();
             Console.WriteLine("Qual algoritmo você deseja executar?");
             Console.WriteLine("1- Algoritmo dos Filósofos");
-            Console.WriteLine("5- Sair");
+            Console.WriteLine("2- Barbeiro Dorminhoco");
+            Console.WriteLine("3- Sair");
             Console.Write("\n->>");
 
             var op = Console.ReadLine();
@@ -33,6 +34,7 @@ namespace AlgoritmosDeEscalonamento
             switch (op)
             {
                 case "1":
+                    // Número de Refeições
                     Console.WriteLine("Quantas refeições você deseja servir?");
                     Console.Write("->>");
 
@@ -42,21 +44,27 @@ namespace AlgoritmosDeEscalonamento
                     filosofos.ServirJantar(qtdRef);
                     break;
                 case "2":
-                    Console.WriteLine("Quantas clientes entraram na barbearia?");
+                    // Número de Clientes
+                    Console.WriteLine("Quantas clientes vão a barbearia?");
                     Console.Write("->>");
 
                     var qtdCli = Int16.Parse(Console.ReadLine());
                     Console.Clear();
 
+                    barbeiro.AdicionarClientes(qtdCli);
+
+                    // Número de Cadeiras
                     Console.WriteLine("Quantas cadeiras para espera a barbearia possuí?");
                     Console.Write("->>");
 
                     var qtdCadEsp = Int16.Parse(Console.ReadLine());
                     Console.Clear();
 
-                    barbeiro.AbrirBarbearia(qtdCli, qtdCadEsp);
+                    barbeiro.ColocarCadeiras(qtdCadEsp);
+
+                    barbeiro.AbrirBarbearia();
                     break;
-                case "5":
+                case "3":
                     return;
                 default:
                     Console.WriteLine("Digite uma opção válida!");
