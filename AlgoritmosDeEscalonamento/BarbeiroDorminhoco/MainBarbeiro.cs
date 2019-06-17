@@ -17,11 +17,16 @@ namespace AlgoritmosDeEscalonamento.BarbeiroDorminhoco
 
         public static Random Rand = new Random();
 
+        public MainBarbeiro()
+        {
+
+        }
+
         public void AbrirBarbearia()
         {
             while (Clientes.Count() > 0)
             {
-                
+
 
                 if (VerificarCadeiraBarbeiro() == false && VerificarCadeirasVazias() == true)
                 {
@@ -33,7 +38,7 @@ namespace AlgoritmosDeEscalonamento.BarbeiroDorminhoco
 
                     Barbeiro.Cadeira.EstaOcupada = false;
                 }
-                else if(VerificarCadeiraBarbeiro() == false && VerificarCadeirasVazias() == true)
+                else if (VerificarCadeiraBarbeiro() == false && VerificarCadeirasVazias() == true)
                 {
                     DesocuparCadeira();
 
@@ -45,7 +50,7 @@ namespace AlgoritmosDeEscalonamento.BarbeiroDorminhoco
 
                     Barbeiro.Cadeira.EstaOcupada = false;
                 }
-                else if(VerificarCadeiraBarbeiro() == true && VerificarCadeirasVazias() == true)
+                else if (VerificarCadeiraBarbeiro() == true && VerificarCadeirasVazias() == true)
                 {
                     OcuparCadeira();
                 }
@@ -75,7 +80,7 @@ namespace AlgoritmosDeEscalonamento.BarbeiroDorminhoco
 
         public bool VerificarCadeiraBarbeiro()
         {
-            if(Barbeiro.Cadeira.EstaOcupada == true)
+            if (Barbeiro.Cadeira.EstaOcupada == true)
             {
                 return true;
             }
@@ -99,9 +104,9 @@ namespace AlgoritmosDeEscalonamento.BarbeiroDorminhoco
 
         public bool VerificarCadeirasVazias()
         {
-            foreach(var cadeira in ListCadeira)
+            foreach (var cadeira in ListCadeira)
             {
-                if(cadeira.EstaOcupada == true)
+                if (cadeira.EstaOcupada == true)
                 {
                     return true;
                 }
@@ -110,28 +115,28 @@ namespace AlgoritmosDeEscalonamento.BarbeiroDorminhoco
             return false;
         }
 
-        public string VerificaCadeiras()
-        {
-            var count = 0;
+        //public string VerificaCadeiras()
+        //{
+        //    var count = 0;
 
-            foreach (var cadeira in ListCadeira)
-            {
-                if (cadeira.EstaOcupada == true)
-                {
-                    count++;
-                }
-            }
+        //    foreach (var cadeira in ListCadeira)
+        //    {
+        //        if (cadeira.EstaOcupada == true)
+        //        {
+        //            count++;
+        //        }
+        //    }
 
-            if(ListCadeira.Count == count)
-            {
-                Console.WriteLine("Todas as cadeirtas estam cheias.");
-                Console.WriteLine("O cliente vai embora...");
-            }
-            else if ()
-            {
+        //    if (ListCadeira.Count == count)
+        //    {
+        //        Console.WriteLine("Todas as cadeirtas estam cheias.");
+        //        Console.WriteLine("O cliente vai embora...");
+        //    }
+        //    else if ()
+        //    {
 
-            }
-        }
+        //    }
+        //}
 
         public void OcuparCadeira()
         {
@@ -166,13 +171,9 @@ namespace AlgoritmosDeEscalonamento.BarbeiroDorminhoco
         {
             Console.WriteLine("Um cliente entrou na barbearia.");
 
-            if(VerificarCadeirasVazias() == true)
+            if (VerificarCadeirasVazias() == true)
             {
                 OcuparCadeira();
-            }
-            else
-            {
-
             }
         }
 
